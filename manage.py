@@ -2,14 +2,14 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import tensorflow as tf
+# import tensorflow as tf
 
-physical_devices = tf.config.list_physical_devices('GPU')
-if physical_devices:
-    tf.config.experimental.set_memory_growth(physical_devices[0], True)
+# physical_devices = tf.config.list_physical_devices('GPU')
+# if physical_devices:
+#     tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # Reduce TensorFlow logging
-os.environ["OMP_NUM_THREADS"] = "1"  # Limit CPU parallelism
+# os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # Reduce TensorFlow logging
+# os.environ["OMP_NUM_THREADS"] = "1"  # Limit CPU parallelism
 
 
 def main():
