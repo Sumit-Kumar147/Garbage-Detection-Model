@@ -182,3 +182,17 @@ STREAM b'sRGB' 41 1
 STREAM b'gAMA' 54 4
 STREAM b'pHYs' 70 9
 STREAM b'IDAT' 91 31633
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): api.cloudinary.com:443
+https://api.cloudinary.com:443 "POST /v1_1/duzqgybdn/image/upload HTTP/1.1" 200 None
+STREAM b'IHDR' 16 13
+STREAM b'sRGB' 41 1
+STREAM b'gAMA' 54 4
+STREAM b'IDAT' 70 65466
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): api.cloudinary.com:443
+https://api.cloudinary.com:443 "POST /v1_1/duzqgybdn/image/upload HTTP/1.1" 200 None
+STREAM b'IHDR' 16 13
+STREAM b'sRGB' 41 1
+STREAM b'gAMA' 54 4
+STREAM b'IDAT' 70 65466
